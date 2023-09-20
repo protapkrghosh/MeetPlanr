@@ -7,6 +7,7 @@ import UseLoadPrice from "@/hooks/UseLoadPrice";
 
 const Pricing = async () => {
    const prices = await UseLoadPrice();
+   console.log(prices); 
    return (
       <div className="py-16 bg-gradient-to-t from-[#f7f9fa] to-[#f5f8fa]">
          <Container>
@@ -32,7 +33,7 @@ const Pricing = async () => {
                            {price.nickname}
                         </span>
                         {price.nickname === "Standard" && (
-                           <span className="bg-[#0B3558] text-white text-[12px] px-2 py-[2px] rounded-sm absolute -top-3 left-[20px]">
+                           <span className="bg-[#465AF7] text-white text-[12px] px-2 py-[2px] rounded-full absolute -top-3 right-[20px]">
                               Most Popular
                            </span>
                         )}
