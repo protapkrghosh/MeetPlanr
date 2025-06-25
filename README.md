@@ -1,5 +1,7 @@
 # ✨ MeetPlanr
 
+![https://i.ibb.co/YF01QhM7/meetplanr.png](https://i.ibb.co/YF01QhM7/meetplanr.png)
+
 ## 📝 Overview
 
 **MeetPlanr** is an open-source web application designed to simplify scheduling meetings across multiple users and time zones.  
