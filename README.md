@@ -38,6 +38,26 @@ Ideal for teams, freelancers, and project managers who want a faster, smarter wa
 | Payment Gateway | Stripe                                  |
 | UI Enhancements | AOS (Animate on Scroll), Lottie, SweetAlert2 |
 
+## ▶️ Getting Started (Local Setup)
+### Prerequisites:
+
+- Node.js
+- MongoDB instance
+- Firebase Project
+- Google Calendar API credentials
+- Stripe Account (for payment feature)
+- SendGrid, Mailgun credentials (for email service)
+
+### Installation Steps:
+
+```bash
+# Clone the repository
+git clone https://github.com/yourusername/meetplanr.git
+cd meetplanr
+
+# Install dependencies
+npm install
+```
 
 ## 📦 Dependencies
 ### Main Dependencies:
@@ -96,25 +116,3 @@ Ideal for teams, freelancers, and project managers who want a faster, smarter wa
 - eslint-plugin-testing-library
 - @types/jest
 - @types/nodemailer
-
-
-## ▶️ Getting Started (Local Setup)
-### Prerequisites:
-
-- Node.js
-- MongoDB instance
-- Firebase Project
-- Google Calendar API credentials
-- Stripe Account (for payment feature)
-- SendGrid, Mailgun credentials (for email service)
-
-### Installation Steps:
-
-```bash
-# Clone the repository
-git clone https://github.com/yourusername/meetplanr.git
-cd meetplanr
-
-# Install dependencies
-npm install
-```
